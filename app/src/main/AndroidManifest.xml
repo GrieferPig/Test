@@ -4,7 +4,9 @@
     package="com.yeet.test">
 
     <uses-feature android:name="android.hardware.type.watch"/>
-    <uses-sdk android:targetSdkVersion='25'
+    <uses-sdk
+        android:targetSdkVersion='25'
+        android:minSdkVersion='25'
         tools:ignore="GradleOverrides,OldTargetApi" />
     <application
         android:allowBackup="true"
