@@ -36,9 +36,9 @@ include $(BUILD_PACKAGE)
 include $(CLEAR_VARS)
 
 # define build jar dep
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := constraint-layout-solver:app/lib/constraint-layout-solver-1.0.2.jar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := constraint-layout-solver:app/libs/constraint-layout-solver-1.0.2.jar
 # define build aar dep
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += constraint-layout:app/lib/constraint-layout-1.0.2.aar
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES += constraint-layout:app/libs/constraint-layout-1.0.2.aar
 
 include $(BUILD_MULTI_PREBUILT)
 
