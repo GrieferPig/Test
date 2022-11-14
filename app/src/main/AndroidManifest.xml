@@ -5,8 +5,7 @@
 
     <uses-sdk
         android:minSdkVersion="25"
-        android:targetSdkVersion="25"
-        tools:ignore="GradleOverrides,OldTargetApi" />
+        android:targetSdkVersion="25" />
 
     <uses-feature android:name="android.hardware.type.watch" />
 
